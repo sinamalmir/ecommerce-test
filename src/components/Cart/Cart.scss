@@ -1,3 +1,74 @@
 .cart{
-    
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    background-color: white;
+    z-index: 999;
+    padding: 20px;
+    box-shadow: 0 0 10px ;
+
+    .item{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 10px;
+
+        img{
+            width: 80px;
+            height: 90px;
+            object-fit: cover;
+        }
+        h1{
+            font-size: 16px;
+            font-weight: 500;
+            color: black;
+            margin: 0;padding: 0;
+        }
+        p{
+            color: gray;
+        }
+        .price{
+            color: #2879fe;
+            font-size: 14px;
+        }
+        .delete{
+            color: red;
+            cursor: pointer;
+        }
+    }
+
+    h1{
+        color: gray;
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    .total{
+        display: flex;
+        justify-content: space-between;
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    button{
+        width: 220px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #2879fe;
+        color: white;
+        gap: 10px;
+        cursor: pointer;
+        border: none;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+    .reset{
+        color: red;
+        cursor: pointer;
+        font-size: 12px;
+    }
+
 }

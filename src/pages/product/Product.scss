@@ -94,6 +94,23 @@
                 font-size: 14px;
             }
         }
+        .info{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            color: gray;
+            font-size: 14px;
+            margin-top: 30px;
+      
+            hr{
+              width: 200px;
+              border: 1px solid rgb(238, 237, 237);
+            }
+          }
+      
+          hr{
+            border: 1px solid rgb(238, 237, 237);
+          }
 
 
 
