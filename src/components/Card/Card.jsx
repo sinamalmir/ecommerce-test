@@ -8,10 +8,10 @@ function Card({item}) {
         <Link className='link' to={`/product/${item.id}`} >
             <div className="card">
                 <div className="image">
-                    {/* {item.isNew && <span> New season </span>} */}
-                    <span> new season </span>
+                    {item.isNew && <span> New season </span>}
+                    {/* <span> new season </span> */}
                     <img src={item.img} alt="" className="mainImg" />
-                    <img src={item.img} alt="" className="secondImg" />
+                    <img src={item.img2} alt="" className="secondImg" />
                 </div>
                 <h2> {item.title} </h2>
                 <div className="prices">
