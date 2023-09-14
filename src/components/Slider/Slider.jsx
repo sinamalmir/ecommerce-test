@@ -16,7 +16,7 @@ function Slider() {
     
     const prevSlide = () => {
         setCurrentSlide( currentSlide === 0 ? 2 : (prev) => prev - 1 )
-        console.log("hello ");
+       
     }
 
     const nextSlide = () => {
